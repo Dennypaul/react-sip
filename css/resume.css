@@ -1,0 +1,151 @@
+
+#first{
+	background-color: #4DF360;
+}
+.second<h3{
+	background-color: green;
+	color: #005207;
+}
+body{
+			background-color:#8AF2C8;
+		}
+		#first{
+			background-color:#A1EC75 ;
+			display: flex;
+			justify-content:  space-around;
+			border:1px solid black;
+			border-radius: 5px;
+			box-shadow: 4px 4px 4px 4px ;
+			margin:4%;
+		}
+		#second{
+			
+			background-color:#E7F698 ;
+	        text-align: center;
+	        border-radius: 5px;
+	        box-shadow: 5px 5px 5px 5px white;
+	        border:1px solid black;
+	        margin: 4%;
+	        width:200px;
+	        height: 300px;
+	    }   
+	    #third{
+         	background-color:#E7F698;
+         	text-align: left;
+         	font-family:Times New Roman;
+         	border:1px solid black;
+         	padding-left: 5%;
+         	box-shadow:5px 5px 5px 5px white;
+         	margin: 4%;
+         	border-radius: 5px;
+
+         }
+         #fourth{
+         	font-size: 200%;
+         	text-align: center;
+         	text-decoration: underline; 
+         }
+         table,th,td{
+         	border:1px solid black;
+         }
+         img{
+         	margin:1px;
+         	width:50%;
+         	height: 40%;
+         }
+
+ /*mobile view*/
+
+@media screen and (min-width:320px) and (max-width:480px) {
+	body{
+	background:#81D6D1;
+
+}
+#first{
+	background:#3AB5AD;
+	display:inline-block;
+	justify-content: space-around;
+	margin:5%;
+}
+#second{
+	background: #137771;
+	margin:5%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:90%;
+	text-align: center;
+	/*height:45%;*/
+}
+
+#third{
+	background: #137771 ;
+	margin:5%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:90%;
+	padding:1%;
+	word-wrap: break-word;
+}
+
+img{
+	border-radius: 4%;
+	margin:4%;
+	width:40%;
+	height:20%;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	font-size: 25px;
+}
+}
+
+/*this css is for tablet view*/
+
+@media screen and (min-width:481px) and (max-width:720px) {
+	body{
+	background:#3AB5AD;
+
+}
+#first{
+	background:#81D6D1;
+	display:inline-block;
+	justify-content: space-around;
+	margin:5%;
+}
+#second{
+	background: #A2C3C1;
+	margin:5%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:90%;
+	text-align: center;
+	/*height:45%;*/
+}
+
+#third{
+	background: #A2C3C1;
+	margin:4%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:90%;
+	padding:1%;
+	word-wrap: break-word;
+}
+
+img{
+	border-radius: 4%;
+	margin:4%;
+	width:40%;
+	height:20%;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	font-size: 25px;
+}
+}        

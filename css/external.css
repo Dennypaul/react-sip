@@ -1,0 +1,24 @@
+body{
+	background-color:#6FE39A;
+}
+#first{
+	background-color: #ED646E;
+	margin:10%;
+	display: flex;
+	justify-content: space-around;
+
+}
+.second{
+	background-color:#64C0ED;
+	margin:4%;
+	box-shadow: 5% 5% 5% 5%; 
+	text-align: center;
+	border-radius: 5%;
+	box-shadow: 5px 5px 5px 5px;
+	height: 330px;
+}
+img{
+	border-radius: 2%;
+    margin:3%;
+
+}
